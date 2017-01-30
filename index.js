@@ -18,7 +18,7 @@ var api = new ParseServer({
   masterKey: process.env.MASTER_KEY || 'VsHhmNrdcAad4GhGTv9HcipxuoOnAVkS7EzTFJ5g', //Add your master key here. Keep it secret!
   clientkey:process.env.CLIENT_KEY || '49Yf7SZhFj77gWynS3oYKGfJWoKenSuZFri8CGO8', //Add your client key here.
   fileKey:process.env.FILE_KEY || '321e8f1c-2b1a-4fb5-aa5b-208a8a979876', //Add your filekey here.
-  serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',  // Don't forget to change to https if needed
+  serverURL: process.env.SERVER_URL || 'https://neverforgotten.herokuapp.com/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
